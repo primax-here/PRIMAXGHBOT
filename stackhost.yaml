@@ -7,7 +7,7 @@ python_version: "3.10"
 
 commands:
   build:
-    - "pip install -r requirements.txt"
+    - "pip install --upgrade pip"
   package:
     - "nano inxi"
   start:
